@@ -3,7 +3,7 @@ Feature: Karate browser automation
   Background:
     * configure driver = { type: 'chrome' }
 
-  Scenario: google search, land on the YouTube, and search for connectwise.
+  Scenario:Google translate
 
     Given driver 'https://google.com'
     And input('input[name=q]', 'Google Translate English to Hindi hello')
